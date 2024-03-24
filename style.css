@@ -283,8 +283,7 @@ span{
         align-items: center;
         border: 2px solid whitesmoke;
         border-radius: 20px;
-        font-size: 0.5rem;
-        font-size: .6rem;
+        font-size: 0.8rem;
     }
     .div3>div>img{
         width: 1rem;
@@ -373,34 +372,4 @@ span{
         font-size: 1.2rem;
         color: white;
     }
-
   }
-  /* @media only screen and (min-width:800px)and( max-width:700px){
-    .projects1{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(3,1fr);
-        gap: 1rem;
-        width: 100%;
-        margin:0;
-        padding: 0;
-    }
-    .projects2{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows:1fr;
-        gap: 1rem;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        margin-bottom: 1rem;
-    }
-    .card{
-        display: flex;
-        justify-self: center;
-        width: 14rem;
-    }
-    .card-img-top{
-        height: 20rem;
-    }
-  } */
