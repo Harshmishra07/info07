@@ -1,0 +1,414 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box
+   ; 
+}
+.imglogo{
+    width: 2rem;
+    height: 2rem;
+    border-radius:50%;
+    background-size: cover;
+}
+.nav{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-bottom:2px solid lightgray;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding-right: 1.5rem;
+    width: 100%;
+}
+.links>a,.projects1>.card>a,.projects2>.card>a{
+    text-decoration: none;
+    color: orange;
+}
+.projects1>.card>a,.projects2>.card>a{
+    font-size: 1.1rem;
+}
+.links>a:hover{
+    color:orangered;
+}
+.me{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+}
+.social-media>a{
+    color:orange;
+    font-size: 2rem;
+    margin: 0px;
+}
+.social-media>a:hover{
+    color: orangered;
+}
+
+.about{
+    padding-top:2.5rem;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+.intro{
+    font-size: 60px;
+}
+.contact{
+    border: none;
+    background-color:orangered;
+    font-size: 2rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+}
+.contact>a{
+    text-decoration: none;
+    color:white;
+}
+.forms>.btn{
+    border: none;
+    background-color:orangered;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+
+}
+.about-me{
+    height: 100vh;
+}
+.abt{
+    height: 7rem;
+}
+.profile{
+    width: 20rem;
+    height: 30rem;
+    border-radius: 2rem;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.75rem;
+}
+.info{
+    align-self: center;
+}
+.para{
+    width: 30rem;
+}
+span{
+    font-weight:  bold;
+}
+.skills-sec{
+    height: 100vh;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap:1rem;
+    margin: 1rem;
+    grid-row-gap: 1rem;
+    width: 80%;
+    margin: auto;
+    }
+.div1,.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 2;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    color: orange;
+}    
+.div3,.div4{
+    grid-column: span 2;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+}
+.div4{
+    grid-column: span 4;
+    border: none;
+}
+.skill_logo{
+    width: 2rem;
+    height: 2rem;
+}
+.progress{
+    width: 50%;
+}
+.projects1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 1rem;
+    width: 80%;
+    margin: auto;
+}
+.projects2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:1fr;
+    gap: 1rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.card{
+    display: flex;
+    justify-self: center;
+    width: 18rem;
+}
+.card-img-top{
+    height: 20rem;
+}
+.contact-me{
+    display: flex;
+    height: 75vh;
+    width: 100%;
+    margin-bottom: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    color: orangered;
+}
+.forms>input{
+    margin: 0.5rem;
+    border-radius:2rem;
+    padding: 1rem;
+    width: 25rem;
+    border: 2px black solid;
+
+}
+.forms>.place{
+    margin: 0.5rem;
+    width: 25rem;
+    border-radius:2rem;
+    padding: 3rem;
+    border: 2px black solid;
+}
+.foot{
+    display: flex;
+    height: 25vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background: orangered;
+    font-size: 2rem;
+    color: white;
+}
+.card-img-top{
+    width: 20rem;
+    height: 20rem;
+}
+.card-body>p,.card-body>a{
+    text-decoration: none;
+    color: orangered;
+}
+@media only screen and (max-width: 700px) {
+    .about {
+        margin-top: 2.5rem;
+        margin-bottom:5rem ;
+        display: flex;
+        flex-direction: column;
+    }
+    .intro{
+        font-size: 1.5rem;
+    }
+    .click>.contact{
+        width: 7rem;
+        height: 3rem;
+        padding: 0;
+        margin: auto;
+    }
+    .click>.contact>a{
+        font-size: 1.5rem;
+    }
+    .me{
+        width: 15rem;
+        height: auto;
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .item>.profile{
+        width: 10rem;
+        height: auto;
+    }
+    .about-me{
+        height: 100vh;
+        margin-bottom:1rem;
+    }
+    .item>.para{
+        padding-top: 2rem;
+        padding: 1rem;
+        font-size: 1rem;
+        width: 100%;
+    }
+    .skills-sec{
+        height: 85vh;
+    }
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-column-gap:1rem;
+        grid-row-gap: 1rem;
+        width: 80%;
+        }
+    .div1,.div2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: span 2;
+        border: 2px solid whitesmoke;
+        border-radius: 20px;
+        color: orange;
+    }    
+    .div1>h1,.div2>h1{
+        font-size:1rem;
+    }
+    .div3,.div4{
+        grid-column: span 2;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        border: 2px solid whitesmoke;
+        border-radius: 20px;
+        font-size: 0.5rem;
+        padding-left: 1.5rem;
+        padding-right:1.5rem;
+        font-size: .6rem;
+    }
+    .div3>div>img{
+        width: 1rem;
+        height: 1rem;
+    }
+    .div4{
+        grid-column: span 4;
+        border: none;
+    }
+    .skill_logo{
+        width: 2rem;
+        height: 2rem;
+    }
+    .progress{
+        width: 0;
+    }
+    .mobile{
+        width:0;
+    }
+    .projects1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 1rem;
+        width: 100%;
+        margin:0;
+        padding: 0;
+    }
+    .projects2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows:1fr;
+        gap: 1rem;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+    .card{
+        display: flex;
+        justify-self: center;
+        width: 14rem;
+    }
+    .card-img-top{
+        height: 20rem;
+    }
+    .contact-me{
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+        width: 100%;
+        margin-bottom: 2rem;
+        justify-content: space-evenly;
+        align-items: center;
+        color: orangered;
+    }
+    .heading{
+        text-align: center;
+    }
+    .forms>input{
+        margin: 0.5rem;
+        border-radius:2rem;
+        padding: 1rem;
+        width: 20rem;
+        border: 2px black solid;
+    
+    }
+    .forms>.place{
+        margin: 0.5rem;
+        width: 20rem;
+        border-radius:2rem;
+        padding: 3rem;
+        border: 2px black solid;
+    }
+    .foot{
+        display: flex;
+        height: 25vh;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        background: orangered;
+        font-size: 1.2rem;
+        color: white;
+    }
+
+  }
+  /* @media only screen and (min-width:800px)and( max-width:700px){
+    .projects1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 1rem;
+        width: 100%;
+        margin:0;
+        padding: 0;
+    }
+    .projects2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows:1fr;
+        gap: 1rem;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+    .card{
+        display: flex;
+        justify-self: center;
+        width: 14rem;
+    }
+    .card-img-top{
+        height: 20rem;
+    }
+  } */
